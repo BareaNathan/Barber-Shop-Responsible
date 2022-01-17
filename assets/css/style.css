@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
+body{
+    background-color: black;
+    font-family: sans-serif, 'icones';
+    color: #212121;
+
+}
+
+.titulo{
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+span{
+    font-weight: 700;
+}

@@ -1,0 +1,36 @@
+.titulo_rodape{
+    font-size: 16px;
+    padding-top: 0;
+    padding-bottom: 0.75rem;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+
+    background-image: url(../img/bg.jpg);
+    color: whitesmoke;
+    padding: 0 10%;
+}
+
+.rodape_logo{
+    font-size: 12px;
+    text-align: center;
+}
+
+.rodape_contatos{
+    width: 50%;
+    font-size: 14px;
+    padding-left: 2rem;
+    border-left: 1px solid whitesmoke;
+}
+
+.rodape_endereco{
+    margin-bottom: 1rem;
+}
+
+.rodape_telefone{
+    padding-top: 1rem;
+}
