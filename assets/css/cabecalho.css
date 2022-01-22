@@ -17,6 +17,10 @@
     padding-left: 5px;
 }
 
+.cabecalho_menu--ativo{
+    z-index: 2;
+}
+
 .cabecalho_menu i::before{
     content: "\e904";
     font-size: 24px;
