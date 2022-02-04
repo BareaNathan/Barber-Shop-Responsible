@@ -87,7 +87,7 @@
 @media screen and (min-width: 768px) {
     .sobre{
         display: grid;
-        grid-template-row: auto 1fr;
+        grid-template-rows: auto 1fr;
         padding: 0 10%;
         gap: 1rem;
     }
@@ -95,6 +95,7 @@
     .sobre_conteudo--bloco{
         display: grid;
         grid-template-columns: 1fr 1fr;
+        align-items: center;
     }
 
     .utensilio{
@@ -110,8 +111,8 @@
     }
 
     .mapa{
-        width: 60%;
-        height: 60vh;
+        width: 80%;
+        height: 500px;
     }
 
     .beneficios_bloco{
